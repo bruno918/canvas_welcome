@@ -7,7 +7,7 @@ $ npm i wlcanvass
 ## welcome
 
 ```js
-const wlcanvas = require("wlcanvass");
+const wlcanvass = require("wlcanvass");
 const fs = require("fs");
 
 async function wlc() {
@@ -34,7 +34,7 @@ wlc().then((data) => {
 ## goodbye
 
 ```js
-const wlcanvass = require("wlcanvas");
+const wlcanvass = require("wlcanvass");
 const fs = require("fs");
 
 async function wlc() {
