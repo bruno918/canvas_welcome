@@ -1,17 +1,17 @@
 ## installation
 
 ```bash
-$ npm i wlanvas
+$ npm i wlcanvass
 ```
 
 ## welcome
 
 ```js
-const wlcanvas = require("wlcanvas");
+const wlcanvas = require("wlcanvass");
 const fs = require("fs");
 
 async function wlc() {
-  const welc = await new wlcanvas.welcome()
+  const welc = await new wlcanvass.welcome()
     .setProfile("picture url")
     .setName("participant")
     .setBg("https://wallpapers.com/images/featured/space-sjryfre8k8f6i3ge.jpg")
@@ -34,15 +34,15 @@ wlc().then((data) => {
 ## goodbye
 
 ```js
-const wlcanvas = require("wlcanvas");
+const wlcanvass = require("wlcanvas");
 const fs = require("fs");
 
 async function wlc() {
-  const welc = await new goodbye()
+  const welc = await new wlcanvass.goodbye()
     .setProfile("url from img")
     .setName("participant")
     .setBg("https://wallpapers.com/images/featured/space-sjryfre8k8f6i3ge.jpg")
-    .setMember(number)
+    .setMember(01)
     .startGoodbye();
   return welc;
 }

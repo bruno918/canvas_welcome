@@ -1,6 +1,6 @@
 {
-  "name": "wlcanvas",
-  "version": "1.0.0",
+  "name": "wlcanvass",
+  "version": "1.0.1",
   "description": "fixed version from yg-canvas",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "welcome-discord",
     "whatsapp"
   ],
-  "author": "yogi",
+  "author": "yogi and brunoww",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bruno918/canvas_welcome/issues"
