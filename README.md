@@ -21,7 +21,7 @@ async function wlc() {
 }
 
 wlc().then((data) => {
-  fs.writeFileSync("out.svg", data.toBuffer());
+  fs.writeFileSync("out.png", data.toBuffer());
 });
 ```
 
@@ -48,7 +48,7 @@ async function wlc() {
 }
 
 wlc().then((data) => {
-  fs.writeFileSync("out.svg", data.toBuffer());
+  fs.writeFileSync("out.png", data.toBuffer());
 });
 ```
 
